@@ -57,7 +57,7 @@ const EditForm = ({ data, setData, formStyle }) => {
       className="form-container"
       style={{
         ...formStyle,
-        position: absolute,
+        position: "absolute",
         zIndex: "1000",
         margin: "10px",
         padding: "10px",
