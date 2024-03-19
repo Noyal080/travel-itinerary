@@ -1,6 +1,6 @@
 {
   "name": "travel-itinerary",
-  "version": "1.8.10",
+  "version": "1.8.11",
   "description": "",
   "main": "./dist/bundle.js",
   "scripts": {
