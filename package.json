@@ -8,9 +8,14 @@
     "build": "webpack",
     "patch": "npm version patch && npm publish"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Noyal080/travel-itinerary.git"
+  },
   "keywords": [],
   "author": "Noyal Nakarmi",
-  "license": "ISC",
+  "license": "MIT",
+  "homepage": "https://github.com/Noyal080/travel-itinerary#readme",
   "devDependencies": {
     "@babel/core": "^7.24.0",
     "@babel/preset-env": "^7.24.0",
