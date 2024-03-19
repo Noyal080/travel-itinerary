@@ -53,7 +53,19 @@ const EditForm = ({ data, setData, formStyle }) => {
   };
 
   return (
-    <div className="form-container" style={{ formStyle }}>
+    <div
+      className="form-container"
+      style={{
+        ...formStyle,
+        position: absolute,
+        zIndex: "1000",
+        margin: "10px",
+        padding: "10px",
+        border: "1px solid #aaa",
+        boxShadow: " 0px 0px 1px black",
+        backgroundColor: "white",
+      }}
+    >
       <div>
         <label className="form-label"> Origin : </label>
         <input
