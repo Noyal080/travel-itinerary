@@ -2,7 +2,7 @@
 #### Installing
 To install `travel-itinerary`, you can use npm:
 	
-		npm i travel-itinerary
+	npm i travel-itinerary
 #### Install dependencies
 Before using `travel-itinerary`, you need to ensure that you have the following dependencies installed in your project:
 
