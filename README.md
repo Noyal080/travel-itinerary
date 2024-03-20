@@ -42,7 +42,7 @@ This component renders the map using `react-leaflet` and shows the markers, poly
 	<div>
 	<ViewMap 
 	 	data={dummyData} 
-		mapConfig ={
+		mapConfig ={{
 		showElevation: true,  //default value is false
 		url : url, 
 		attribution: attribution,
@@ -51,7 +51,7 @@ This component renders the map using `react-leaflet` and shows the markers, poly
 		loader : loader  
 		zoom : "5"
 		mapPosition : [27,87],
-		}
+		}}
 		mapStyle ={ mapStyle}
 		 />
 		</div>
