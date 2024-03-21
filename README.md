@@ -1,7 +1,7 @@
-
+```` javascript
 #### Installing
 To install `travel-itinerary`, you can use npm:
-	
+
 	npm i travel-itinerary
 #### Install dependencies
 Before using `travel-itinerary`, you need to ensure that you have the following dependencies installed in your project:
@@ -47,8 +47,8 @@ This component renders the map using `react-leaflet` and shows the markers, poly
 		url : url, 
 		attribution: attribution,
 		markerIcon : markerIcon,
-		polylineColor : red   //default value is green
-		loader : loader  
+		polylineColor : red,  //default value is green
+		loader : loader , 
 		zoom : "5"
 		mapPosition : [27,87],
 		}}
@@ -95,7 +95,8 @@ This component renders the map using `react-leaflet` and asks the users to drop 
 	setData={setFormData}
 	elevationStyle={elevationStyle}
 	/>
-	</InteractiveMap>	</div>
+	</InteractiveMap>	
+ 	</div>
 	);
 	}
 	export default App;
@@ -185,4 +186,4 @@ It generates an textarea field that contains all the data so that users can copy
 	);
 	}
 	export  default  App;
-
+````
